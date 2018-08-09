@@ -42,7 +42,7 @@ go get -u github.com/deathemperor/grpc-with-swagger-example
 # RUN THE EXAMPLE
 Start the server by running:
 ```
-make run_server
+make run_server svc=jwt_service
 ```
 
 On another termail, to test gRPC request, run:
@@ -55,6 +55,7 @@ To serve RESTful:
 make run_gateway
 ```
 
+Test the API
 ```
 curl http://localhost:8080/v1/jwt/echo/123
 ```
@@ -72,3 +73,12 @@ curl http://localhost:8080/v1/jwt/echo/123
 1. [Install Docker](https://docs.docker.com/install/)
 2. Run make docker
 3. http://localhost:83/swagger/
+
+
+# MAKE COMMANDS
+1. `make init svc={service_name}`: create new service
+2. `make build_go svc={service_name}`
+3. `make build_proto svc={service_name}`
+4. `make build_docker svc={service_name}`
+5. `make clean svc={service_name}`
+6. 

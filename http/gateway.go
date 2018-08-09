@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-    "grpc-example/proto/jwt"
+    jwt "grpc-example/proto/jwt_service"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"google.golang.org/grpc"
 )

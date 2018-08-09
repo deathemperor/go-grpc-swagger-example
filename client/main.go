@@ -8,7 +8,7 @@ import (
     "google.golang.org/grpc"
     "google.golang.org/grpc/metadata"
 
-    jwt "grpc-example/proto/jwt"
+    jwt "grpc-example/proto/jwt_service"
 )
 
 const (
