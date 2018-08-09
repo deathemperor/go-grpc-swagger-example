@@ -53,15 +53,15 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "f4c29de78a2a91c00474a2e689954305c350adf9"
+  revision = "f9ce57c11b242f0f1599cf25c89d8cb02c45295a"
 
 [[projects]]
   branch = "master"
-  digest = "1:9ec6ad2659635ba0974dd7e55bf84233523eb4e7535c9a2fddaefc4cc62a3eac"
+  digest = "1:76b5ca88193bf744f729c2fde12151b24364ffaca3fd092069d9ca2ea6e1f999"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "0ffbfd41fbef8ffcf9b62b0b0aa3a5873ed7a4fe"
+  revision = "904bdc257025c7b3f43c19360ad3ab85783fad78"
 
 [[projects]]
   digest = "1:a2ab62866c75542dd18d2b069fec854577a20211d7c0ea6ae746072a1dccdd18"
@@ -88,14 +88,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:edfc7a0bed09f4d7af304129d96d563a53bcc9d8ebc8cd5443b845fda30f170b"
+  digest = "1:6c6b70cf6d2788d9f7dc6589bc88e0e1c7edc40612294431ebb7d09536d12240"
   name = "google.golang.org/genproto"
   packages = [
     "googleapis/api/annotations",
     "googleapis/rpc/status",
   ]
   pruneopts = "UT"
-  revision = "daca94659cb50e9f37c1b834680f2e46358f10b0"
+  revision = "383e8b2c3b9e36c4076b235b32537292176bae20"
 
 [[projects]]
   digest = "1:76332e947f184a2dc091db40f22c7089ada36bbc577793074639695af85a10fd"
