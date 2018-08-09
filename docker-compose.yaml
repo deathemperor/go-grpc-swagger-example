@@ -1,0 +1,12 @@
+version: '3'
+services:
+  webapp:
+    container_name: swagger_ui
+    image: swaggerapi/swagger-ui:latest
+    ports:
+      - "83:8080"
+    volumes:
+      - "/Users/deathemperor/go/src/grpc-example/proto/jwt/:/base"
+    environment:
+      - BASE_URL=/swagger/
+      - SWAGGER_JSON=/base/jwt.swagger.json
